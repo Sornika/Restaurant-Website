@@ -1,0 +1,27 @@
+body {
+    background-color: lightseagreen;
+}
+
+#form {
+    background-color: white;
+    width: 25%;
+    border-radius: 4px;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#btn {
+    color: white;
+    background-color: darkcyan;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 570px) {
+    #form {
+      width: 65%;
+      padding: 40px;
+    }
+}

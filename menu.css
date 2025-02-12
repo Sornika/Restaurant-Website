@@ -1,0 +1,126 @@
+body {
+  background-color: rgba(160, 95, 151, 0.244);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+
+}
+.apitizer {
+  font-family: cursive;
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.apitizer:hover {
+  background-color: rgba(255, 0, 25, 0.226);
+}
+.menu_content {
+  font-family: cursive;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px 2em;
+  grid-gap: 10px;
+}
+.Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Entrees:hover {
+  background-color: blanchedalmond;
+}
+.Chicken_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Chicken_Entrees:hover {
+  background-color: azure;
+}
+.pakwan_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pakwan_Entrees:hover {
+  background-color: aliceblue;
+}
+.thali_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.thali_Entrees:hover {
+  background-color: aliceblue;
+}
+.Chat_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Chat_Entrees:hover {
+  background-color: aliceblue;
+}
+.drink_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.drink_Entrees:hover {
+  background-color: aliceblue;
+}
+.bread_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bread_Entrees:hover {
+  background-color: aliceblue;
+}
+.desert_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.desert_Entrees:hover {
+  background-color: aliceblue;
+}
+.nepalikitchen_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nepalikitchen_Entrees:hover {
+  background-color: aliceblue;
+}
+.momo_Entrees {
+  width: 100%;
+  border: 10px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.momo_Entrees:hover {
+  background-color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu_content {
+    display: grid;
+    grid-template-columns: auto;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+
+    <div id="form">
+        <h1>Register</h1>
+        <form name="registerForm" action="register.php" onsubmit="return validateForm()" method="POST">
+            <label>Email: </label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label>Username: </label>
+            <input type="text" id="user" name="user" required><br><br>
+            <label>Password: </label>
+            <input type="password" id="pass" name="pass" required><br><br>
+            <input type="submit" id="btn" value="Register" name="submit"/>
+        </form>
+    </div>
+
+    <script>
+        function validateForm() {
+            var user = document.registerForm.user.value;
+            var email = document.registerForm.email.value;
+            var pass = document.registerForm.pass.value;
+
+            if (user.length == "" || email.length == "" || pass.length == "") {
+                alert("All fields are required!");
+                return false;
+            }
+        }
+    </script>
+
+</body>
+</html>

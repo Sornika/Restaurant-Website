@@ -1,0 +1,72 @@
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+/*HERO SECTION*/
+#hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#hero::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-image: url(img/restro.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(100%);
+}
+#hero_content {
+  position: absolute;
+}
+#hero_content h1 {
+  color: #fff;
+  font-size: 2.8rem;
+  text-shadow: 2px 2px 2px #000;
+}
+#hero_content h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: American Typewriter, serif;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+#hero_content a {
+  color: #fff;
+  padding: 3px 20px 3px 20px;
+  border: 1px solid orange;
+  background: rgb(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+}
+#hero_content a:hover {
+  background: navy;
+}
+
+@media screen and (max-width: 817px) {
+  html {
+    font-size: 75%;
+  }
+}
